@@ -1,0 +1,19 @@
+command_id	command_category	command_note	command_description	latin keyboard layout	cyrillic keyboard layout
+angle_left	key	<	angle_left	+{COMMA}	%{SHIFT}+{COMMA}%{SHIFT}
+angle_right	key	>	angle_right	+{PERIOD}	%{SHIFT}+{PERIOD}%{SHIFT}
+curly_left	key	{	curly_left	+{[}	%{SHIFT}+{[}%{SHIFT}
+curly_right	key	}	curly_right	+{]}	%{SHIFT}+{]}%{SHIFT}
+brace_left	key	[	brace_left	{[}	%{SHIFT}{[}%{SHIFT}
+brace_right	key	]	brace_right	{]}	%{SHIFT}{]}%{SHIFT}
+bracket_left	key	(	bracket_left	+{9}	%{SHIFT}+{9}%{SHIFT}
+bracket_right	key	)	bracket_right	+{0}	%{SHIFT}+{0}%{SHIFT}
+tilde	key	~	tilde	+{`}	%{SHIFT}+{`}%{SHIFT}
+at	key	@	at	+{2}	%{SHIFT}+{2}%{SHIFT}
+hash	key	#	hash	+{3}	%{SHIFT}+{3}%{SHIFT}
+dollar	key	$	dollar	+{4}	%{SHIFT}+{4}%{SHIFT}
+percent	key	%	percent	+{5}	%{SHIFT}+{5}%{SHIFT}
+hat	key	^	hat	+{6}	%{SHIFT}+{6}%{SHIFT}
+and	key	&	and	+{7}	%{SHIFT}+{7}%{SHIFT}
+star	key	*	star	+{8}	%{SHIFT}+{8}%{SHIFT}
+quote	key	'	quote	{QUOTE}	%{SHIFT}{QUOTE}%{SHIFT}
+doublequote	key	''	double quote	+{QUOTE}	%{SHIFT}+{QUOTE}%{SHIFT}
