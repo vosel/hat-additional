@@ -1,0 +1,94 @@
+command_id	command_category	command_note	command_description	VS	eclipse	IDEA
+debug_start	Build_and_Debug	debug	start debug	{F5}	{F11}	+{F9}
+debug_stepInto	Build_and_Debug	step into	step into	{F11}	{F5}	{F7}
+debug_restart	Build_and_Debug	restart	restart debug	^+{F5} 		+{F10}
+debug_stepOver	Build_and_Debug	step over	step over	{F10}	{F6}	{F8}
+debug_stepOut	Build_and_Debug	step out	step out	+{F11}	{F7}	+{F8}
+debug_forceStepOver	Build_and_Debug	force step over	Run until the next line in this method or file, skipping the methods referenced at the current execution point and ignoring breakpoints			+%{F8}
+debug_forceStepOut	Build_and_Debug	force step out	Steps into the method called in the current execution point even if this method is to be skipped 			+%{F7}
+debug_build	Build_and_Debug	build	Build solution (or Ctrl+shift+b)	{F6}	^B 	^{F9}
+debug_rebuild	Build_and_Debug	rebuild	Rebuild solution	^%{F7}		
+debug_cancelBuild	Build_and_Debug	cancel build	Cancel build process	^{BREAK}		
+view_errors	Build_and_Debug	errors	Show error list	^({BACKSLASH}E)		
+debug_toggleBreakpoint	Build_and_Debug	toggle bkpt	Toggle breakpoint	{F9}	^+B 	^{F8}
+debug_addFuncBreakpoint	Build_and_Debug	insert function bkpt	Insert new function breakpoint	^B		
+debug_runToCursor	Build_and_Debug	run to cursor	Debug / run to cursor	^{F10}	^R 	%{F9}
+view_breakpointsWindow	Build_and_Debug	breakpoints window	Open breakpoints widow	^DB		^+{F8}
+view_quickWatch	Build_and_Debug	quick watch	Show Quickwatch window	^%Q		
+debug_disassAndCode	Build_and_Debug	switch between disassembly and  code	Toggle between disassembly and user code view	^{F11}		
+debug_stopDebugger	Build_and_Debug	stop debug	Stop Debugging	+{F5}	^{F2}	+{F2}
+debug_bypassDebugger	Build_and_Debug	bypass debugger	Bypass debugger	^{F5}		
+debug_breakAllThreads	Build_and_Debug	break all	Break all executing threads	^%{BREAK}		
+debug_resume	Build_and_Debug	resume	Resume execution	{F5}		{F9}
+bkmk_add	Bookmarks	add bookmark	Toogle bookmark	^(KK)		{F11}
+bkmk_gotoNext	Bookmarks	next bookmark	Goto next bookmark	^(KN)		
+bkmk_gotoPrev	Bookmarks	prev bookmark	Goto previous bookmark	^(KP)		
+bkmk_gotoNextInFolder	Bookmarks	next bookmark in folder	Goto next bookmark in folder	^+(KN)		
+bkmk_gotoPrevInFolder	Bookmarks	prev bookmark in folder	Goto previous bookmark in folder	^+(KP)		+{F11}
+bkmk_showBookmarks	Bookmarks	bookmarks	Put focus on bookmark window	^(KW)		
+bkmk_clearAll	Bookmarks	clear bookmarks	Clear all bookmarks	^(KL)		
+bkmk_showTaskList	Bookmarks	show tasks	Show Task List (including code shortcuts)	^({BACKSLASH}T)		
+edit_toupper	Edit_Code	to_upper	Make uppercase	^+U		
+edit_tolower	Edit_Code	to_lower	Make lowercase (reverse upercase)	^U		
+edit_addBlockComment	Edit_Code	add block comments	add block comments		^+{SLASH} 	
+edit_removeBlockComment	Edit_Code	remove block comments	remove block comments		^+{BACKSLASH}	
+edit_toggleCommentWithBlockComment	Edit_Code	toggle block comments	Comment/uncomment current line or selected block with line comments			^+{SLASH}
+edit_toggleCommentWithOneLineComment	Edit_Code	toggle line comments	Comment/uncomment code with block comments			^{SLASH}
+edit_commentSelection	Edit_Code	comment selection	Comment selected text	^(KC)		
+edit_uncommentSelection	Edit_Code	uncomment selection	Uncomment selected text	^(KU)		
+edit_removeWhitespacesInSelection	Edit_Code	remove whitespaces in selection	Remove white space and tabs in selection or around current cursor position	^(K{BACKSLASH})		
+edit_formatDocument	Edit_Code	format whole document	Format document to code formatting settings	^(KD)		
+edit_formatSelection	Edit_Code	format selection	Format selection to code formatting settings	^(KF)		
+edit_showRequiredParam	Edit_Code	show required parameter for method	Display parameter required for selected method	^+{SPACE}		
+edit_visualizeWhitespace	Edit_Code	visualize whitespace	Visualize whitespace (or press Ctrl+r then Ctrl+w)	^+8		
+edit_transposeWords	Edit_Code	transpose words at cursor	Transpose word to right of cursor (makes b=a out of a=b if cursor was in front of a)	^+T		
+edit_transposeChars	Edit_Code	transpose chars at cursor	Transpose character left and right of cursor (cursor between ab would make ba)	^T		
+edit_transposeLines	Edit_Code	transpose this line with next	Transpose line: Move line below cursor up and current line down.	+%T		
+open_typeHierarchy	Navigate_Source_Code	Type Hierarchy 	Browse hierarchy for the selected class		{F4}	^H
+open_methodHierarchy	Navigate_Source_Code	Method Hierarchy 	Browse hierarchy for the selected method			^+H
+open_callHierarchy	Navigate_Source_Code	Call Hierarchy 	Browse call hierarchy for the selected method	^K^T	^%H 	^%H
+gotoClass	Navigate_Source_Code	Navigate to Class 	Navigate to Class 	^{COMMA}		^N
+gotoFilename	Navigate_Source_Code	Navigate to File 	Navigate to File 			^+N
+gotoLine	Navigate_Source_Code	Navigate to Line 	Navigate to Line 		^L 	^G
+gotoTypeDeclaration	Navigate_Source_Code	Navigate to Type Declaration 	Navigate to a type declaration of a symbol at caret, the symbol being a variable or a method call			^+B
+gotoSuperMethod	Navigate_Source_Code	Navigate to Super Method 	Navigate to a super method declaration of a method under the caret 			^U
+gotoOpenBrace	Navigate_Source_Code	Navigate to Opening Brace 	Navigate to Opening Brace 			^{LBRACKET}
+gotoCloseBrace	Navigate_Source_Code	Navigate to Closing Brace 	Navigate to Closing Brace 			^{RBRACKET}
+gotoMatchingBrace	Navigate_Source_Code	Matching Brace 	Goto matching bracket		^+P 	
+go_back	Navigate_Source_Code	Back 	Back 	^{MINUS}		^%{LEFT}
+go_forward	Navigate_Source_Code	Forward 	Forward 	^+{MINUS}		^%{RIGHT}
+gotoLastEditLocation	Navigate_Source_Code	Last Edit Location 	Last Edit Location 			^+{BACKSPACE}
+collapse_presetArea	Collapse_Items	collapse preset area	Collapse / un-collapse current preset area (e.g. method)	^(MM)		
+collapse_selection	Collapse_Items	collapse selection	Collpase / hide current selection	^(MH)		{PERIOD}
+collapse_declarations	Collapse_Items	collapse declaration bodies	Collapse declaration bodies	^(MO)		
+collapse_all	Collapse_Items	collapse all	Collapse all	^(MA)		^+{NUM-}
+uncollapse_all	Collapse_Items	uncollapse all	Uncollapse all	^(MX)		^+{NUM+}
+collapse_htmlTag	Collapse_Items	collapse html tag	Collapse Html tag	^M^T		
+helper_showQuickDoc	Sense_and_Code_Helper	quick doc	Show a pop-up window with the documentation for the symbol at the caret.		^O	^Q
+helper_showParamInfo	Sense_and_Code_Helper	show param info	Show parameter info	^+{SPACE}		^P
+helper_showDeclaration	Sense_and_Code_Helper	show declaration	Display symbol declaration	^{F12}		^B
+helper_showDefinition	Sense_and_Code_Helper	show definition	Display symbol definition	{F12}		^%B
+helper_intelliscenceCompletionList	Sense_and_Code_Helper	code completion list	Open IntelliSense completion list	^J		^{SPACE}
+highlightUsages	Find_and_Replace	highlight usages	Highlight usages of a symbol at caret			^+{F7}
+findUsagesInFile	Find_and_Replace	find usages locally	Initiate search for usages of the selected symbol in the current file			^{F7}
+findUsages	Find_and_Replace	find usages	Initiate search for usages of the selected symbol in the specified scope			%{F7}
+findTextInPath	Find_and_Replace	find in path	find text in path			^+F
+findAndReplaceTextInPath	Find_and_Replace	find and replace in path	find and replace text in path			^+R
+findAndReplaceText	Find_and_Replace	find and replace text	find and replace text	^H		^R
+findText	Find_and_Replace	find text	find text	^F 		^F
+findSymbol	Find_and_Replace	find symbol	Find symbol	Alt+{F12}		
+wnd_quickFind	Tool_Windows	quick find	Put cursor in the find/command box in toolbar	^{SLASH}		
+wnd_codeSnippetMngr	Tool_Windows	code snippet manager	Open code snippet manager window	^(KB)		
+wnd_macroWnd	Tool_Windows	macro window	Open macro IDE window	%{F11}		
+wnd_bookmarks	Tool_Windows	bookmarks window	Open bookmark window	^(KW)		
+wnd_callHierarchy	Tool_Windows	call hierarchy	Open call hierarchy window	^%K		
+wnd_classView	Tool_Windows	class view	Open class view window	^+C		
+wnd_commandWnd	Tool_Windows	command window	Open Command window	^%A		
+wnd_output	Tool_Windows	output window	Open Output window	^+O		
+wnd_resView	Tool_Windows	resview window	Open Resource view window	^+E		
+wnd_srvExplorer	Tool_Windows	server explorer	Open Server explorer window	^%S		
+wnd_solutionExplorer	Tool_Windows	solution explorer	Open Solution explorer window	^+L		
+findAction	Tool_Windows	Find Action 	Find an action, bypassing menus			^+A
+wnd_stackTrace	Tool_Windows	stack trace	Open stack trace window	^DC		
+wnd_locals	Tool_Windows	locals	Open locals (debug) window	^DA		
+wnd_autos	Tool_Windows	autos	Open autos (debug) window	^DL		
