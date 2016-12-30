@@ -1,0 +1,20 @@
+page:text editor
+edit_commentSelection;edit_uncommentSelection
+edit_formatDocument;edit_formatSelection
+page:code navigation
+go_back;go_forward
+open_callHierarchy;gotoClass
+helper_showDeclaration;helper_showDefinition
+helper_showQuickDoc;helper_showParamInfo
+page:build and run
+debug_rebuild;debug_build;
+debug_cancelBuild;view_errors
+debug_start;debug_restart
+page:debug steps
+;debug_stepInto;;
+debug_stepOut;;debug_stepOver
+;debug_toggleBreakpoint;;
+debug_runToCursor;;
+page:debug on break
+view_breakpointsWindow;wnd_stackTrace
+wnd_locals;wnd_autos;view_quickWatch
