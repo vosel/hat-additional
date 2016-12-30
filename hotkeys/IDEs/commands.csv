@@ -11,9 +11,9 @@ debug_rebuild	Build_and_Debug	rebuild	Rebuild solution	^%{F7}
 debug_cancelBuild	Build_and_Debug	cancel build	Cancel build process	^{BREAK}		
 view_errors	Build_and_Debug	errors	Show error list	^({BACKSLASH}E)		
 debug_toggleBreakpoint	Build_and_Debug	toggle bkpt	Toggle breakpoint	{F9}	^+B 	^{F8}
-debug_addFuncBreakpoint	Build_and_Debug	insert function bkpt	Insert new function breakpoint	^B		
+debug_addFuncBreakpoint	Build_and_Debug	insert function bkpt	Insert new function breakpoint	^D^B		
 debug_runToCursor	Build_and_Debug	run to cursor	Debug / run to cursor	^{F10}	^R 	%{F9}
-view_breakpointsWindow	Build_and_Debug	breakpoints window	Open breakpoints widow	^DB		^+{F8}
+view_breakpointsWindow	Build_and_Debug	breakpoints window	Open breakpoints widow	%{F9}		^+{F8}
 view_quickWatch	Build_and_Debug	quick watch	Show Quickwatch window	^%Q		
 debug_disassAndCode	Build_and_Debug	switch between disassembly and  code	Toggle between disassembly and user code view	^{F11}		
 debug_stopDebugger	Build_and_Debug	stop debug	Stop Debugging	+{F5}	^{F2}	+{F2}
@@ -89,6 +89,6 @@ wnd_resView	Tool_Windows	resview window	Open Resource view window	^+E
 wnd_srvExplorer	Tool_Windows	server explorer	Open Server explorer window	^%S		
 wnd_solutionExplorer	Tool_Windows	solution explorer	Open Solution explorer window	^+L		
 findAction	Tool_Windows	Find Action 	Find an action, bypassing menus			^+A
-wnd_stackTrace	Tool_Windows	stack trace	Open stack trace window	^DC		
-wnd_locals	Tool_Windows	locals	Open locals (debug) window	^DA		
-wnd_autos	Tool_Windows	autos	Open autos (debug) window	^DL		
+wnd_stackTrace	Tool_Windows	stack trace	Open stack trace window	%7		
+wnd_locals	Tool_Windows	locals	Open locals (debug) window	%4		
+wnd_autos	Tool_Windows	autos	Open autos (debug) window	^%VA		
