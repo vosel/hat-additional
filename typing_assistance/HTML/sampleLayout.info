@@ -1,0 +1,24 @@
+page:tables, lists
+close_selfcontainedTag;close_tag_bracket;open_tag_bracket;voidTag_br_def
+tag_li_start;tag_ul_start;tag_ol_start
+tag_li_close;tag_ul_close;tag_ol_close
+tag_table_start;tag_tr_start;tag_td_start
+tag_table_close;tag_tr_close;tag_td_close
+page:misc
+close_selfcontainedTag;close_tag_bracket;open_tag_bracket;voidTag_br_def
+tag_h2_start;tag_h3_start;tag_h4_start
+tag_h2_close;tag_h3_close;tag_h4_close
+tag_a_begin;tag_a_close
+voidTag_img_def;tag_s_start;tag_s_close
+page:headers
+tag_h1_start;tag_h1_close
+tag_h2_start;tag_h2_close
+tag_h3_start;tag_h3_close
+tag_h4_start;tag_h4_close
+tag_h5_start;tag_h5_close
+tag_h6_start;tag_h6_close
+page:attrs
+attr_decl_alt;attr_decl_disabled
+attr_decl_href;attr_decl_id
+attr_decl_src;attr_decl_style
+attr_decl_title

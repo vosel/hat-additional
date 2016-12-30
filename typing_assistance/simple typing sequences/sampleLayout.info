@@ -1,0 +1,5 @@
+page:symbols
+angle_left;angle_right;curly_left;curly_right
+brace_left;brace_right;bracket_left;bracket_right
+tilde;at;hash;dollar;percent
+hat;and;star;quote;doublequote
