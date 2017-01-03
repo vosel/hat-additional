@@ -1,0 +1,14 @@
+command_id	command_category	command_note	command_description	latin_layout	cyrillic_layout
+one	sequence	один		%{SHIFT}jlby%{SHIFT}	jlby
+two	sequence	два		%{SHIFT}ldf%{SHIFT}	ldf
+three	sequence	три		%{SHIFT}nhb%{SHIFT}	nhb
+table_open	sequence	<table>		+{COMMA}table{SPACE}border{EQUAL}+{QUOTE}{1}+{QUOTE}+{PERIOD}	%{SHIFT}+{COMMA}table{SPACE}border{EQUAL}+{QUOTE}{1}+{QUOTE}+{PERIOD}%{SHIFT}
+table_close	sequence	</table>		+{COMMA}{SLASH}table+{PERIOD}	%{SHIFT}+{COMMA}{SLASH}table+{PERIOD}%{SHIFT}
+tr_open	sequence	<tr>		+{COMMA}tr+{PERIOD}	%{SHIFT}+{COMMA}tr+{PERIOD}%{SHIFT}
+tr_close	sequence	</tr>		+{COMMA}{SLASH}tr+{PERIOD}	%{SHIFT}+{COMMA}{SLASH}tr+{PERIOD}%{SHIFT}
+td_open	sequence	<td>		+{COMMA}td+{PERIOD}	%{SHIFT}+{COMMA}td+{PERIOD}%{SHIFT}
+td_close	sequence	</td>		+{COMMA}{SLASH}td+{PERIOD}	%{SHIFT}+{COMMA}{SLASH}td+{PERIOD}%{SHIFT}
+enter	sequence	enter	press 'enter'	{ENTER}	{ENTER}
+hello	sequence	привет	hello	%{SHIFT}+ghbdtn%{SHIFT}{COMMA}{SPACE}	+ghbdtn%{SHIFT}{COMMA}{SPACE}%{SHIFT}
+habr	sequence	habr		habrahabr+{1}	%{SHIFT}habrahabr+{1}%{SHIFT}
+br	sequence	<br/>		+{COMMA}br{SLASH}+{PERIOD}	%{SHIFT}+{COMMA}br{SLASH}+{PERIOD}%{SHIFT}

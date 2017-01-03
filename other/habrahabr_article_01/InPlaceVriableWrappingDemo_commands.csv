@@ -1,0 +1,2 @@
+command_id	command_category	command_note	command_description	latin_layout
+wrap_selected_text	sequence	wrap selected variable		^{X}my+function+name+9^(V)+0

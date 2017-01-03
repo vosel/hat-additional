@@ -1,0 +1,2 @@
+command_id	command_category	command_note	command_description	env1	env2
+test	sequence	test sequence		test{ENTER}

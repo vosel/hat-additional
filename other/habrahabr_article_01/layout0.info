@@ -1,0 +1,6 @@
+page:main page
+debug_start
+debug_stepInto
+debug_stepOver
+debug_stepOut
+debug_restart
